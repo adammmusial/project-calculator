@@ -1,0 +1,16 @@
+{
+  "name": "project-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adammmusial/project-calculator.git",
+  "author": "adammmusial <musialadam83@gmail.com>",
+  "license": "MIT",
+  "scirpts": {
+    "start": "node index.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+  
+}
