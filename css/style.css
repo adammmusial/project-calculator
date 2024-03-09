@@ -23,3 +23,10 @@ body {
     padding: 20px;
 
 }
+
+.display-container{
+    display: flex;
+    flex-direction: column;
+    margin-block: 40px 30px
+}
+
