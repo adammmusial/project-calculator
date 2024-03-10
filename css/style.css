@@ -48,5 +48,26 @@ body {
     outline: none;
     border: none;
     pointer-events: none;
+    background: transparent;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 15px;
+
+}
+
+.buttons button {
+    width: 75px;
+    height: 75px;
+    font-size: 24px;
+    font-weight: 300;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
