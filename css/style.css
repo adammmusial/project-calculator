@@ -101,3 +101,32 @@ button.value-zero{
     text-align: left;
     padding-left: 30px;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 376px){
+    body{
+        background: var(--black-color);
+    }
+    .display{
+        font-size: 40px;
+    }
+    .buttons{
+        row-gap: 10px;
+    }
+    .buttons button{
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .container{
+        max-width: 300px;
+    }
+
+    button.value-zero{
+        width: calc(50% - 8px);
+        border-radius: 50px;
+        text-align: left;
+        padding-left: 30px;
+    }
+}
