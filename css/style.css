@@ -82,3 +82,22 @@ body {
     cursor: pointer;
 }
 
+.buttons .operator{
+    background-color: var(--orange-color);
+}
+
+.buttons .top-operator{
+    background-color: var(--light-grey);
+    color: var(--black-color);
+}
+
+.buttons button:active{
+    transform: scale(0.95)
+}
+
+button.value-zero{
+    width: calc(50% - 8px);
+    border-radius: 50px;
+    text-align: left;
+    padding-left: 30px;
+}
